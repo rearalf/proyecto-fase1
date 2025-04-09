@@ -22,14 +22,14 @@
 
     <nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
         <div class="container">
-            <a class="navbar-brand" href="#page-top">CINEMA PARADISO</a>
+            <a class="navbar-brand" href="/">CINEMA PARADISO</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
                 aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                 <i class="fas fa-bars ms-1"></i>
             </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
-                    <li class="nav-item"><a class="nav-link" href="#services">Estrenos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="peliculas.html">Películas</a></li>
                     <li class="nav-item"><a class="nav-link" href="#portfolio">Actores</a></li>
                     <li class="nav-item"><a class="nav-link" href="#about">Acerca</a></li>
                     <li class="nav-item"><a class="nav-link" href="#team">Contactos</a></li>
@@ -42,9 +42,11 @@
     <div id="carouselExample" class="carousel slide">
         <header class="masthead">
             <div class="container">
-                <h2 class="masthead-subheading">Bienvenido a Cinema Paradiso!</h1>
-                    <h1 class="masthead-heading text-uppercase">Todo el cine en una web</h1>
-                    <a class="btn btn-primary btn-xl text-uppercase" href="#services">Hecha un vistazo</a>
+                <div class="container-masthead">
+                    <h2 class="masthead-subheading">Bienvenido a Cinema Paradiso!</h1>
+                        <h1 class="masthead-heading text-uppercase">Todo el cine en una web</h1>
+                        <a class="btn btn-primary btn-xl text-uppercase" href="#services">Hecha un vistazo</a>
+                </div>
             </div>
         </header>
         <div class="carousel-inner">
@@ -54,11 +56,11 @@
             </div>
             <div class="carousel-item">
                 <div class="carousel-item-background"></div>
-                <img src="assets/slider1.webp" class="d-block w-100" alt="slider 1">
+                <img src="assets/slider2.webp" class="d-block w-100" alt="slider 1">
             </div>
             <div class="carousel-item">
                 <div class="carousel-item-background"></div>
-                <img src="assets/slider1.webp" class="d-block w-100" alt="slider 1">
+                <img src="assets/slider3.webp" class="d-block w-100" alt="slider 1">
             </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
@@ -79,20 +81,20 @@
                     del momento sobre
                     criticas, estrenos y noticias sobre el septimo arte</h4>
             </div>
-            <div class="row text-center">
+            <div class="row justify-content-center gap-4">
 
-                <div class="col-md-4 d-flex justify-content-center">
-                    <div class="card p-0" style="width: 18rem;">
+                <div class="col-md-5 d-flex justify-content-center">
+                    <div class="card p-0" style="width: 20rem;">
                         <img src="/assets/estrenos.jpg" class="card-img-top" alt="Estrenos 2025">
                         <div class="card-body">
-                            <h5 class="card-title">Estrenos 2025</h5>
+                            <h5 class="card-title">Estrenos Abril</h5>
                             <p class="card-text">Todos los estrenos de este 2025</p>
                             <a href="#" class="btn btn-primary">Ir a ver</a>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 d-flex justify-content-center">
-                    <div class="card p-0" style="width: 18rem;">
+                <div class="col-md-5 d-flex justify-content-center">
+                    <div class="card p-0" style="width: 20rem;">
                         <img src="/assets/actores-momento.webp" class="card-img-top" alt="Estrenos 2025">
                         <div class="card-body">
                             <h5 class="card-title">Actores del momento</h5>
@@ -102,17 +104,63 @@
                     </div>
                 </div>
 
-                <div class="col-md-4 d-flex justify-content-center">
-                    <div class="card p-0" style="width: 18rem;">
-                        <img src="/assets/estrenos.jpg" class="card-img-top" alt="Estrenos 2025">
-                        <div class="card-body">
-                            <h5 class="card-title">Estrenos 2025</h5>
-                            <p class="card-text">Todos los estrenos de este 2025</p>
-                            <a href="#" class="btn btn-primary">Ir a ver</a>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="my-5">
+        <div class="container">
+            <div
+                class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between mb-4 gap-4">
+                <h1 class="text-uppercase">Películas en cines</h1>
+                <a href="#" class="btn btn-primary">Ver más películas</a>
+            </div>
+            <div class="row gap-4 px--4 justify-content-center justify-content-md-start">
+
+                <div class="card p-0 col-md-auto" style="width: 18rem;">
+                    <div class="position-relative container-image-btn">
+                        <button type="button" class="btn position-absolute btn-card-play" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal">
+                            ▶️
+                        </button>
+                        <img src="./assets/card1.png" class="card-img-top" alt="A Minecraft Movie">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">A Minecraft Movie</h5>
+                        <div class="d-flex gap-4">
+                            <span>
+                                🤮 48%
+                            </span>
+                            <span>
+                                😍 88%
+                            </span>
                         </div>
                     </div>
                 </div>
 
+                <div class="card p-0 col-md-auto" style="width: 18rem;">
+                    <div>
+                        <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"
+                            class="container-image-btn position-relative">
+                            <span class="btn position-absolute btn-card-play">
+                                ▶️
+                            </span>
+                            <img src="./assets/card1.png" class="card-img-top" alt="A Minecraft Movie">
+                        </button>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">A Minecraft Movie</h5>
+                        <div class="d-flex gap-4">
+                            <span>
+                                🤮 48%
+                            </span>
+                            <span>
+                                😍 88%
+                            </span>
+                        </div>
+                    </div>
+                </div>
 
             </div>
         </div>
@@ -143,6 +191,19 @@
             © 2025 Copyright
         </div>
     </footer>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <iframe width="660" height="415" src="https://www.youtube.com/embed/bwAbeOvpfq0?si=_V_sir0Hhm75jG59"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+            </div>
+        </div>
+    </div>
 
     <!-- Bootstrap core JS-->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
