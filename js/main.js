@@ -4,7 +4,6 @@ document.addEventListener('DOMContentLoaded', function () {
     function checkScroll() {
         const scrollHeight = window.scrollY;
         const viewportHeight = window.innerHeight;
-        console.log(navbar.classList);
         if (scrollHeight > 0.50 * viewportHeight) {
             navbar.classList.add('scrolled-navbar');
         } else {

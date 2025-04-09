@@ -82,6 +82,7 @@ h6,
 }
 
 .navbar {
+	transition: background-color .5s ease-in-out;
 	background-color: hsla(0, 0%, 20%, 0.6);
 }
 
