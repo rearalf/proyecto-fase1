@@ -16,6 +16,18 @@
         integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
     <!-- Core CSS -->
     <link href="css/styles.css" rel="stylesheet" />
+    
+   <style>
+    .card-img-top {
+      height: 250px;
+      object-fit: cover;
+      transition: transform 0.3s ease;
+    }
+
+    .card-img-top:hover {
+      transform: scale(1.1);
+    }
+  </style>
 </head>
 
 <body>
@@ -39,60 +51,101 @@
         </div>
     </nav>
 
-    <main class="container">
-        <h1 class="my-4 text-center text-md-start">
-            Actores del momento
-        </h1>
-        <div class="row gap-4 justify-content-center justify-content-md-start">
-
-            <div class="card p-0 col-md-auto" style="width: 18rem;">
-                <div>
-                    <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"
-                        class="container-image-btn position-relative">
-                        <span class="btn position-absolute btn-card-play">
-                            ▶️
-                        </span>
-                        <img src="./assets/card1.png" class="card-img-top" alt="A Minecraft Movie">
-                    </button>
-                </div>
-                <div class="card-body">
-                    <h5 class="card-title">A Minecraft Movie</h5>
-                    <div class="d-flex gap-4">
-                        <span>
-                            🤮 48%
-                        </span>
-                        <span>
-                            😍 88%
-                        </span>
-                    </div>
-                </div>
+    <div class="container mt-5">
+        <h2 class="text-center mb-4">Mejores Actores del Momento</h2>
+        <div class="row row-cols-1 row-cols-md-4 g-4">
+      
+          <!-- Cillian Murphy -->
+          <div class="col">
+            <div class="card h-100">
+              <img src="assets/cillian.avif" class="card-img-top" alt="Cillian Murphy">
+              <div class="card-body">
+                <h5 class="card-title">Cillian Murphy</h5>
+                <p class="card-text">Ganador del Oscar por *Oppenheimer*, un actor con una mirada que hipnotiza.</p>
+              </div>
             </div>
-
-            <div class="card p-0 col-md-auto" style="width: 18rem;">
-                <div>
-                    <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"
-                        class="container-image-btn position-relative">
-                        <span class="btn position-absolute btn-card-play">
-                            ▶️
-                        </span>
-                        <img src="./assets/card1.png" class="card-img-top" alt="A Minecraft Movie">
-                    </button>
-                </div>
-                <div class="card-body">
-                    <h5 class="card-title">A Minecraft Movie</h5>
-                    <div class="d-flex gap-4">
-                        <span>
-                            🤮 48%
-                        </span>
-                        <span>
-                            😍 88%
-                        </span>
-                    </div>
-                </div>
+          </div>
+      
+          <!-- Zendaya -->
+          <div class="col">
+            <div class="card h-100">
+              <img src="assets/zendaya.jpg" class="card-img-top" alt="Zendaya">
+              <div class="card-body">
+                <h5 class="card-title">Zendaya</h5>
+                <p class="card-text">Brilla en *Euphoria* y *Dune*, con carisma y talento que no se detienen.</p>
+              </div>
             </div>
-
+          </div>
+      
+          <!-- Timothée Chalamet -->
+          <div class="col">
+            <div class="card h-100">
+              <img src="assets/timotee.webp" class="card-img-top" alt="Timothée Chalamet">
+              <div class="card-body">
+                <h5 class="card-title">Timothée Chalamet</h5>
+                <p class="card-text">Con *Dune* y *Wonka*, es uno de los jóvenes actores más versátiles.</p>
+              </div>
+            </div>
+          </div>
+      
+          <!-- Florence Pugh -->
+          <div class="col">
+            <div class="card h-100">
+              <img src="assets/florence.jpg" class="card-img-top" alt="Florence Pugh">
+              <div class="card-body">
+                <h5 class="card-title">Florence Pugh</h5>
+                <p class="card-text">Destaca en dramas y películas de acción como *Don't Worry Darling* y *Thunderbolts*.</p>
+              </div>
+            </div>
+          </div>
+      
+          <!-- Pedro Pascal -->
+          <div class="col">
+            <div class="card h-100">
+              <img src="assets/pedropascal.webp" class="card-img-top" alt="Pedro Pascal">
+              <div class="card-body">
+                <h5 class="card-title">Pedro Pascal</h5>
+                <p class="card-text">Ícono en *The Mandalorian* y *The Last of Us*, carisma total.</p>
+              </div>
+            </div>
+          </div>
+      
+          <!-- Jenna Ortega -->
+          <div class="col">
+            <div class="card h-100">
+              <img src="assets/jenna.webp" class="card-img-top" alt="Jenna Ortega">
+              <div class="card-body">
+                <h5 class="card-title">Jenna Ortega</h5>
+                <p class="card-text">La estrella revelación de *Wednesday*, con un futuro brillante.</p>
+              </div>
+            </div>
+          </div>
+      
+          <!-- Austin Butler -->
+          <div class="col">
+            <div class="card h-100">
+              <img src="assets/austin.webp" class="card-img-top" alt="Austin Butler">
+              <div class="card-body">
+                <h5 class="card-title">Austin Butler</h5>
+                <p class="card-text">Impactó con su interpretación de Elvis. Ahora parte de *Dune 2*.</p>
+              </div>
+            </div>
+          </div>
+      
+          <!-- Anya Taylor-Joy -->
+          <div class="col">
+            <div class="card h-100">
+              <img src="assets/anya.webp" class="card-img-top" alt="Anya Taylor-Joy">
+              <div class="card-body">
+                <h5 class="card-title">Anya Taylor-Joy</h5>
+                <p class="card-text">Estrella de *Queen’s Gambit* y *Furiosa*, con estilo único y mucha fuerza.</p>
+              </div>
+            </div>
+          </div>
+      
         </div>
-    </main>
+      </div>
+      
 
 </body>
 
