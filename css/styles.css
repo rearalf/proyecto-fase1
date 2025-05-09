@@ -210,3 +210,24 @@ h6,
 .min-h-screen {
 	min-height: 70vh;
 }
+body.acerca-bg {
+	background-image: url('../assets/cine.jpg'); /* Ajusta la ruta y nombre del archivo */
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+}
+body.creadores-bg {
+	background-image: url('../assets/cinema.jpg'); /* Ajusta la ruta y nombre del archivo */
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+}
+body.actores-bg {
+	background-image: url('../assets/claqueta.jpg'); /* Ajusta la ruta y nombre del archivo */
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+}
