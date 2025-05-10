@@ -231,3 +231,43 @@ body.actores-bg {
 	background-position: center center;
 	background-attachment: fixed;
 }
+
+.slider-img {
+	object-fit: cover;
+}
+
+.creator-section {
+	background-color: rgba(255, 255, 255, 0.6);
+	padding: 2rem;
+	border-radius: 1rem;
+	color: #1f1c18;
+	font-family: Arial, sans-serif;
+	backdrop-filter: blur(4px);
+}
+
+.creator-title {
+	text-align: center;
+	font-family: 'Playfair Display', serif;
+	font-size: 2rem;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+}
+
+.creator-image {
+	width: 100%;
+	border-radius: 1rem;
+	margin-bottom: 1rem;
+}
+
+@media screen and (min-width: 768px) {
+	.creator-title {
+		font-size: 3rem;
+	}
+}
+
+.card-img-top {
+	height: 250px;
+	object-fit: cover;
+	transition: transform 0.3s ease;
+}
